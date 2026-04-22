@@ -1,0 +1,29 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": [
+      "/api/*",
+      "/assets/*",
+      "/images/*",
+      "/videos/*",
+      "/*.css",
+      "/*.js",
+      "/*.map",
+      "/*.png",
+      "/*.jpg",
+      "/*.jpeg",
+      "/*.gif",
+      "/*.svg",
+      "/*.webp",
+      "/*.ico",
+      "/*.woff",
+      "/*.woff2",
+      "/*.ttf",
+      "/*.eot",
+      "/*.mp4"
+    ]
+  },
+  "responseOverrides": {
+    "404": { "rewrite": "/index.html", "statusCode": 200 }
+  }
+}
