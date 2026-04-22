@@ -27,7 +27,7 @@ const values = [
 ];
 
 export default function AboutPage() {
-  const [scrolled, setScrolled] = useState(false);
+  const [, setScrolled] = useState(false);
   const missionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
